@@ -7,15 +7,34 @@
     }
 
     main {
-        padding: 50px;
+        padding: 0 50px;
     }
 
     .recipe-origin {
         display: inline-block;
     }
-    
+
     .recipe-title {
         font-size: 20px;
     }
-}
 
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .btn {
+        width: 25%;
+    }
+
+    .ads {
+        display: block;
+    }
+
+    .presentation img {
+        display: inline;
+    }
+
+
+}
