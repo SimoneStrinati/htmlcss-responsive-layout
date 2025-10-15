@@ -1,1 +1,21 @@
 /* Soluzione qui */
+
+@media screen and (min-width: 770px) {
+
+    #topbar {
+        justify-content: flex-start;
+    }
+
+    main {
+        padding: 50px;
+    }
+
+    .recipe-origin {
+        display: inline-block;
+    }
+    
+    .recipe-title {
+        font-size: 20px;
+    }
+}
+
