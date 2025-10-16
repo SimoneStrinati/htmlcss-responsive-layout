@@ -18,23 +18,36 @@
         font-size: 20px;
     }
 
-    ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+    .quick-notes ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px 20px;
     }
 
-    .btn {
-        width: 25%;
+    .social-networks button {
+        padding: 15px 60px;
+    }
+
+    .social-networks {
+        gap: 0;
     }
 
     .ads {
         display: block;
     }
 
+    .presentation {
+        display: flow-root;
+    }
+
     .presentation img {
+        float: left;
+        margin: 0 20px 10px 0;
         display: inline;
     }
+
+
+
 
 
 }
